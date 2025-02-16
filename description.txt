@@ -1,0 +1,18 @@
+SportRouteur est une application conçue pour les amateurs de sport et les athlètes souhaitant optimiser leurs parcours de course à pied, de vélo, de randonnée et d'autres activités sportives. 
+L'application utilise ChatGPT pour fournir des itinéraires personnalisés en fonction des préférences de l'utilisateur, telles que le type d'activité, la distance et les caractéristiques du terrain.
+En intégrant divers profils de routage, SportRouteur permet aux utilisateurs de choisir des itinéraires adaptés à leurs besoins spécifiques, qu'il s'agisse de privilégier les chemins piétonniers pour la course à pied ou de trouver des pistes cyclables pour le vélo.
+De plus, elle propose des options de partage et de participation à des défis communautaires, favorisant ainsi l'engagement et la motivation au sein de la communauté sportive.
+
+
+Documentation :
+
+Pour faire marcher l'application, il suffit de donner deux coordonées gps au programme sous cette forme :
+
+{
+  "locations": [
+    {"latitude": 48.8566, "longitude": 2.3522},
+    {"latitude": 43.7102, "longitude": 7.2620}
+  ]
+}
+
+L'application vous renverra par le suite les statistiques du chemin comme le temps ou les calories consommés.
